@@ -1,0 +1,143 @@
+.el-header {
+  position: fixed;
+  font-weight: 600;
+  z-index: 1;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.menu-footer {
+  position: fixed;
+  bottom: 0;
+  width: 60vw;
+}
+
+.el-main {
+  padding: 0;
+}
+
+.footer {
+  // padding: 0;
+  background-color: #050e26;
+  color: #fff;
+
+  span:hover {
+    color: @main_color;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+}
+
+.header-shadow {
+  box-shadow: 0px 1px 30px #cdcdcd40;
+  background-color: #fff;
+}
+
+.menu {
+
+  .menu-item,
+  .community {
+    margin-left: 10px;
+    padding: 5px 30px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: @main_color;
+
+    &:hover {
+      border: 1px solid @main_color;
+      cursor: pointer;
+    }
+  }
+
+  .active {
+    background-color: @main_color;
+    color: #fff;
+  }
+
+}
+
+.tvl {
+  padding: 20px;
+  border: 1px solid #cdcdcd40;
+}
+
+.product {
+  height: 1592px;
+  .product-item {
+    width: 300px;
+  }
+
+  .el-divider--horizontal {
+    margin: 70px 0;
+  }
+
+  .img-edge-cover {
+    width: 300px;
+    height: 300px;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      box-shadow: 0 0 50px 15px #ffffff inset;
+    }
+
+    img {
+      border-radius: 2vh;
+    }
+  }
+}
+
+.el-carousel-item {
+  text-align: center;
+}
+
+#partner{
+  height: 872px;
+}
+.partner {
+  flex-flow: wrap;
+  >div {
+    padding: 15px;
+    width: 40vw;
+    max-width: 180px;
+    height: 55px;
+    img {
+      max-width: 100%;
+      height: 25px;
+    }
+    background-color:  rgba(126, 181, 255, .08);
+    border-radius: 2vh;
+    margin: 7px;
+  }
+}
+
+.main-divider {
+  .el-divider--horizontal {
+    margin: 140px 0;
+  }
+}
+
+.main-1 {
+  background-color: rgba(126, 181, 255, .08);
+  background-image: url('../home/header.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+}
+
+.el-menu.el-menu--horizontal {
+  border-bottom: none;
+}
+
+.el-menu--horizontal>.el-menu-item.is-active {
+  border-bottom: 2px solid transparent;
+}
