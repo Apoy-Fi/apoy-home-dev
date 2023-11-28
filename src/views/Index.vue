@@ -105,7 +105,7 @@
           <!-- 3 First cards -->
           <div v-show="show_home">
             <div class="main-first-card f-1_2vw glass-container animate__animated animate__fadeInRight"
-              style="left: calc(22vw - 11vw);  top: 300px;">
+              style="left: calc(22vw - 11vw);">
               <div class="ta-c f-1_2vw f-weighter neon">AMM + CLMM<br><br></div>
               <span></span>
 
@@ -115,7 +115,7 @@
             </div>
 
             <div class="main-first-card f-1_2vw glass-container animate__animated animate__fadeInUp"
-              style="left: calc(50vw - 11vw); top: 105px;">
+              style="left: calc(50vw - 11vw);">
               <div class="ta-c f-1_2vw f-weighter neon">{{ $t("common.homeCardTitleFund") }}<br><br></div>
               <span></span>
               <div class="f-1vw f-weighter" style="text-indent:2em">
@@ -124,7 +124,7 @@
             </div>
 
             <div class="main-first-card f-1_2vw glass-container animate__animated animate__fadeInLeft"
-              style="left: calc(78vw - 11vw); top: -92px;">
+              style="left: calc(78vw - 11vw);">
               <div class="ta-c f-1_2vw f-weighter neon">{{ $t("common.homeCardTitleAi") }}<br><br></div>
               <span></span>
               <div class="f-1vw f-weighter" style="text-indent:2em">
@@ -713,11 +713,12 @@ export default {
   min-height: 150px;
   width: 20vw;
   color: #f8f8f8;
-  position: relative;
+  position: absolute;
+  top: calc(18vw + 450px);
 }
 
 .main-first-card:hover {
-  top: 770px;
+  top: calc(18vw + 435px);
 }
 
 .main-first-card span {
@@ -759,6 +760,10 @@ export default {
   z-index: -1;
   box-shadow: 140px -140px #cc3f47;
   background-image: linear-gradient(45deg, #FF512F 0%, #F09819 51%, #FF512F 100%);
+}
+
+.main-first-card span:hover {
+  transform: scale(1.15);
 }
 
 // ==
