@@ -349,14 +349,14 @@
         </div>
         <el-divider></el-divider>
 
-        <!--DIY on Dexes V.S. Apoy Finance-->
+        <!--DIY on Dexes V.S. Apoy-->
         <div class="main-sixth-content">
-          <div class="f-2vw f-weighter ta-c">{{ $t("common.diyTitle") }} V.S. Apoy Finance</div>
+          <div class="f-2vw f-weighter ta-c">{{ $t("common.diyTitle") }} V.S. Apoy</div>
           <div class="table_style f-1vw">
             <table>
               <tr>
                 <th style="width: 6vw">{{ $t("common.diyTitle") }}</th>
-                <th style="width: 6vw">Apoy Finance</th>
+                <th style="width: 6vw">Apoy</th>
                 <th style="width: 88vw">{{ $t("common.diyAdvn") }}</th>
               </tr>
               <tr>

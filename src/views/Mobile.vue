@@ -117,30 +117,30 @@
 
           <!-- 3 First cards -->
           <div v-show="show_home">
-            <div class="main-first-card f-20 glass-container animate__animated animate__fadeInRight"
+            <div class="main-first-card f-18 glass-container animate__animated animate__fadeInRight"
               style="left: 5vw; top: 270px">
-              <div class="ta-c f-22 f-weighter neon">AMM + CLMM<br><br></div>
+              <div class="ta-c f-18 f-weighter neon">AMM + CLMM<br><br></div>
               <span></span>
 
-              <div class="f-18 f-weighter" style="text-indent:2em">
+              <div class="f-16 f-weighter" style="text-indent:2em">
                 {{ $t("common.homeFirst1") }}
               </div>
             </div>
 
-            <div class="main-first-card f-20 glass-container animate__animated animate__fadeInUp"
+            <div class="main-first-card f-18 glass-container animate__animated animate__fadeInUp"
               style="left: 5vw; top: 320px">
-              <div class="ta-c f-22 f-weighter neon">{{ $t("common.homeCardTitleFund") }}<br><br></div>
+              <div class="ta-c f-18 f-weighter neon">{{ $t("common.homeCardTitleFund") }}<br><br></div>
               <span></span>
-              <div class="f-18 f-weighter" style="text-indent:2em">
+              <div class="f-16 f-weighter" style="text-indent:2em">
                 {{ $t("common.homeFirst2") }}
               </div>
             </div>
 
-            <div class="main-first-card f-20 glass-container animate__animated animate__fadeInLeft"
+            <div class="main-first-card f-18 glass-container animate__animated animate__fadeInLeft"
               style="left: 5vw; top: 370px">
-              <div class="ta-c f-22 f-weighter neon">{{ $t("common.homeCardTitleAi") }}<br><br></div>
+              <div class="ta-c f-18 f-weighter neon">{{ $t("common.homeCardTitleAi") }}<br><br></div>
               <span></span>
-              <div class="f-18 f-weighter" style="text-indent:2em">
+              <div class="f-16 f-weighter" style="text-indent:2em">
                 {{ $t("common.homeFirst3") }}
               </div>
             </div>
@@ -150,7 +150,7 @@
         <!--How it works?-->
         <div style="height: 1550px;">
 
-          <div v-show="show_product" class="f-25 ta-c f-weighter animate__animated animate__fadeInUp"
+          <div v-show="show_product" class="f-22 ta-c f-weighter animate__animated animate__fadeInUp"
             style="position: relative; top: 50px">
             {{ $t("common.howItWorkTitle") }}
           </div>
@@ -214,39 +214,39 @@
 
         <!--Leveraged Yiled Farming-->
         <div class="main-third-content">
-          <div class="f-25 ta-c f-weighter">{{ $t("common.lyfHead") }}</div>
-          <div class="main-third-text ta-c f-19 gradient-text" style="top: 80px;">
+          <div class="f-22 ta-c f-weighter">{{ $t("common.lyfHead") }}</div>
+          <div class="main-third-text ta-c f-16 gradient-text" style="top: 80px;">
             {{ $t("common.lyfDesc1") }}<br><br>
             {{ $t("common.lyfDesc2") }}<br><br>
             {{ $t("common.lyfDesc3") }}
           </div>
 
-          <div class="card-strategy f-18 f-weighter ta-c"
+          <div class="card-strategy f-16 f-weighter ta-c"
             style="position: relative; left: 5vw; top: 490px; background-color: #e54d42;">
             {{ $t("common.lyfStrategy1") }}
           </div>
 
-          <div class="card-strategy f-18 f-weighter ta-c"
+          <div class="card-strategy f-16 f-weighter ta-c"
             style="position: relative; left: 5vw; top: 500px; background-color: #f37b1d;">
             {{ $t("common.lyfStrategy2") }}
           </div>
 
-          <div class="card-strategy f-18 f-weighter ta-c"
+          <div class="card-strategy f-16 f-weighter ta-c"
             style="position: relative; left: 5vw; top: 510px; background-color: #fbbd08;">
             {{ $t("common.lyfStrategy3") }}
           </div>
 
-          <div class="card-strategy f-18 f-weighter ta-c"
+          <div class="card-strategy f-16 f-weighter ta-c"
             style="position: relative; left: 5vw; top: 520px; background-color: #8dc63f;">
             {{ $t("common.lyfStrategy4") }}
           </div>
 
-          <div class="card-strategy f-18 f-weighter ta-c"
+          <div class="card-strategy f-16 f-weighter ta-c"
             style="position: relative; left: 5vw; top: 530px; background-color: #0081ff;">
             {{ $t("common.lyfStrategy5") }}
           </div>
 
-          <div class="card-strategy f-18 f-weighter ta-c"
+          <div class="card-strategy f-16 f-weighter ta-c"
             style="position: relative; left: 5vw; top: 540px; background-color: #e03997;">
             {{ $t("common.lyfStrategy6") }}
           </div>
@@ -256,15 +256,15 @@
 
         <!--Asset Management Funds-->
         <div class="main-fourth-content">
-          <div class="f-25 f-weighter ta-c">{{ $t("common.amfHead") }}</div>
+          <div class="f-22 f-weighter ta-c">{{ $t("common.amfHead") }}</div>
           <div>
             <img src="../assets/home/fund1.png" class="main-fourth-img" style="left: 5vw; top: 65px" />
           </div>
           <div>
-            <div class="f-21 f-weighter" style="position: relative; align-items: center; justify-content: center; display: flex; top: calc(50.5vw + 60px)">
+            <div class="f-18 f-weighter" style="position: relative; align-items: center; justify-content: center; display: flex; top: calc(50.5vw + 60px)">
               {{ $t("common.amfBondTitle") }}
             </div>
-            <div class="f-18 ta-c main-fourth-text gradient-text"
+            <div class="f-16 ta-c main-fourth-text gradient-text"
               style="position: absolute; left: 5vw; top: calc(50.5vw + 140px); width: 90vw">
               {{ $t("common.amfBondFund1") }}<br /><br />
               {{ $t("common.amfBondFund2") }}<br /><br />
@@ -275,10 +275,10 @@
             <img src="../assets/home/fund2.png" class="main-fourth-img" style="left: 5vw; top: calc(50.5vw + 420px)" />
           </div>
           <div>
-            <div class="f-21 f-weighter" style="position: relative; align-items: center; justify-content: center; display: flex; top: calc(101vw + 390px)">
+            <div class="f-18 f-weighter" style="position: relative; align-items: center; justify-content: center; display: flex; top: calc(101vw + 390px)">
               {{ $t("common.amfHedgeTitle") }}
             </div>
-            <div class="f-18 ta-c main-fourth-text gradient-text"
+            <div class="f-16 ta-c main-fourth-text gradient-text"
               style="position: absolute; left: 5vw; top: calc(101vw + 500px); width: 90vw">
               {{ $t("common.amfHedgeFund1") }}<br /><br />
               {{ $t("common.amfHedgeFund2") }}<br /><br />
@@ -291,10 +291,10 @@
             <img src="../assets/home/fund3.png" class="main-fourth-img" style="left: 5vw; top: calc(101vw + 830px)" />
           </div>
           <div>
-            <div class="f-21 f-weighter" style="position: relative; align-items: center; justify-content: center; display: flex; top: calc(151.5vw + 770px)">
+            <div class="f-18 f-weighter" style="position: relative; align-items: center; justify-content: center; display: flex; top: calc(151.5vw + 770px)">
               {{ $t("common.amfIndexTitle") }}
             </div>
-            <div class="f-18 ta-c main-fourth-text gradient-text"
+            <div class="f-16 ta-c main-fourth-text gradient-text"
               style="position: absolute; left: 5vw; top: calc(151.5vw + 900px); width: 90vw">
               {{ $t("common.amfIndexFund1") }}<br /><br />
               {{ $t("common.amfIndexFund2") }}<br /><br />
@@ -307,12 +307,12 @@
 
         <!--Artificial Intelligence-->
         <div class="main-fifth-content">
-          <div class="f-25 f-weighter ta-c">{{ $t("common.aiHead") }}</div>
+          <div class="f-22 f-weighter ta-c">{{ $t("common.aiHead") }}</div>
 
           <div class="main-ai-card" style="left: 8vw; top: 40px">
             <div class="circle"></div>
             <div class="circle"></div>
-            <div class="main-ai-card-inner f-18 f-weighter ta-c" style="color: #d21e1e;">
+            <div class="main-ai-card-inner f-16 f-weighter ta-c" style="color: #d21e1e;">
               1<br><br>{{ $t("common.aiDesc1") }}
             </div>
           </div>
@@ -320,7 +320,7 @@
           <div class="main-ai-card" style="left: 8vw; top: 70px">
             <div class="circle"></div>
             <div class="circle"></div>
-            <div class="main-ai-card-inner  f-18 f-weighter ta-c" style="color: #d21e1e;">
+            <div class="main-ai-card-inner  f-16 f-weighter ta-c" style="color: #d21e1e;">
               2<br><br>{{ $t("common.aiDesc2") }}
             </div>
           </div>
@@ -328,14 +328,14 @@
           <div class="main-ai-card" style="left: 8vw; top: 100px">
             <div class="circle"></div>
             <div class="circle"></div>
-            <div class="main-ai-card-inner f-18 f-weighter ta-c" style="color: #d21e1e;">
+            <div class="main-ai-card-inner f-16 f-weighter ta-c" style="color: #d21e1e;">
               3<br><br>{{ $t("common.aiDesc3") }}
             </div>
           </div>
           <div class="main-ai-card" style="left: 8vw; top: 130px">
             <div class="circle"></div>
             <div class="circle"></div>
-            <div class="main-ai-card-inner f-18 f-weighter ta-c" style="color: #d21e1e;">
+            <div class="main-ai-card-inner f-16 f-weighter ta-c" style="color: #d21e1e;">
               4<br><br>{{ $t("common.aiDesc4") }}
             </div>
           </div>
@@ -344,12 +344,12 @@
 
         <!--DIY on Dexes V.S. Apoy Finance-->
         <div class="main-sixth-content">
-          <div class="f-25 f-weighter ta-c">{{ $t("common.diyTitle") }} V.S. X Finance</div>
-          <div id="vsTable" class="table_style f-18">
+          <div class="f-22 f-weighter ta-c">{{ $t("common.diyTitle") }} V.S. Apoy</div>
+          <div id="vsTable" class="table_style f-16">
             <table>
               <tr>
                 <th style="width: 6vw">{{ $t("common.diyTitle") }}</th>
-                <th style="width: 6vw">Apoy Finance</th>
+                <th style="width: 6vw">Apoy</th>
                 <th style="width: 88vw">{{ $t("common.diyAdvn") }}</th>
               </tr>
               <tr>
@@ -409,7 +409,7 @@
 
         <!--Community-->
         <div style="height: 110vw;">
-          <div class="f-25 f-weighter ta-c">{{ $t("common.joinCommunity") }}</div>
+          <div class="f-22 f-weighter ta-c">{{ $t("common.joinCommunity") }}</div>
           <div class="community-card"
             style="position: relative; top: 50px; display: flex; justify-content: center; align-items: center;">
             <div class="main">
@@ -602,7 +602,7 @@ export default {
 <style lang="less" scoped>
 .main-f {
   background-image: linear-gradient(135deg, #FFF6B7 10%, #F6416C 100%);
-  height: calc(1120px + 40vw);
+  height: calc(1030px + 40vw);
 }
 
 .bannerimg {
@@ -658,7 +658,7 @@ export default {
   background-color: rgb(185, 103, 229);
   padding: 20px;
   border-radius: 20px;
-  min-height: 150px;
+  min-height: 120px;
   width: 80vw;
   color: #f8f8f8;
   position: relative;
@@ -668,8 +668,8 @@ export default {
 .main-first-card span {
   position: absolute;
   overflow: hidden;
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   top: -10px;
   left: -10px;
   display: flex;
@@ -730,7 +730,7 @@ export default {
   }
 
   .main-third-text:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
   }
 
 }
@@ -756,7 +756,7 @@ export default {
   .main-fourth-text {}
 
   .main-fourth-text:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
   }
 }
 

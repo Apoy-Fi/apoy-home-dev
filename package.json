@@ -6,7 +6,7 @@
     "serve:dev": "vue-cli-service serve --mode dev",
     "serve:test": "vue-cli-service serve --mode test",
     "serve:prod": "vue-cli-service serve --mode prod",
-    "dp:test": "vue-cli-service build --mode test && scp -r dist/ root@47.100.88.64:/usr/src/apoy-home/",
+    "dp:test": "vue-cli-service build --mode test && scp -i apoy.pem -r dist/ ec2-user@54.169.160.78:/usr/src/apoy-home/",
     "dp:prod": "vue-cli-service build --mode prod && scp -r dist/ xuxiaoyong@47.241.216.50:/usr/src/apoy-home/",
     "dp:prod@root": "vue-cli-service build --mode prod && scp -r dist/ root@47.241.216.50:/usr/src/apoy-home/",
     "build:test": "vue-cli-service build --mode test",
