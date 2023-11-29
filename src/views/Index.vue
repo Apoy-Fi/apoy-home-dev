@@ -1337,7 +1337,7 @@ export default {
 
 
 .card-strategy {
-  width: 7vw;
+  width: 8.5vw;
   height: 180px;
   color: white;
   display: flex;
