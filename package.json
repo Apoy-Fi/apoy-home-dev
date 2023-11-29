@@ -1,4 +1,5 @@
-{
+{ 
+  "": "Nvm version 14.17.0",
   "name": "apoy-home",
   "version": "0.1.0",
   "private": true,
