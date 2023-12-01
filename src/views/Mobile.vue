@@ -106,7 +106,7 @@
 
           <div v-show="show_home" class="animate__animated animate__fadeInRight"
             style="position: relative; left: 35vw; top: 6vw;">
-            <button class="Btn-Launch f-20" style="width: 30vw; height: 45px; top: 130px" @click="go(urls.docs)">
+            <button class="Btn-Launch f-16" style="width: 30vw; height: 45px; top: 130px" @click="go(urls.docs)">
               <!-- {{ $t("common.comingsoon") }} -->Coming Soon
             </button>
           </div>
