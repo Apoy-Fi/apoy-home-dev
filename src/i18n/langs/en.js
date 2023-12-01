@@ -14,6 +14,7 @@ const en = {
     launchApp: "Launch",
     tvl: "TVL",
     lock: "Lock",
+    comingsoon: "Coming Soon",
     learnMore: "Learn More",
     twitter: "Twitter",
     discord: "Discord",
