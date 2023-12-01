@@ -147,7 +147,7 @@ var myMixin = {
         secure: '',
         github: 'https://github.com/Apoy-Fi',
         discord: 'https://discord.gg/nmBZZ3rB',
-        telegram: '',
+        telegram: 'https://t.me/apoyfi',
         twitter: 'https://twitter.com/ApoyFinance',
         whitePaper: this.lang === 'cn' ? '' : '',
         docs: this.lang === 'cn' ? '' :
