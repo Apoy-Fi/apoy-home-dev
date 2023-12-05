@@ -96,7 +96,7 @@
           </div>
 
           <div v-show="show_home" class="animate__animated animate__fadeInRight"
-            style="position: relative; display: flex; justify-content: center; align-items: center; top: 6.5vw;">
+            style="position: relative; display: flex; justify-content: center; align-items: center; top: 115px;">
             <button class="Btn-Launch f-1vw" style="width: 170px; height: 45px;" @click="go(urls.docs)">
               <!-- {{ $t("common.comingsoon") }} --> Coming Soon
             </button>
@@ -204,7 +204,7 @@
         <!--Leveraged Yiled Farming-->
         <div class="main-third-content">
           <div class="f-2vw ta-c f-weighter">{{ $t("common.lyfHead") }}</div>
-          <div class="main-third-text ta-c gradient-text f-1_1vw" style="top: 110px;">
+          <div class="main-third-text ta-c gradient-text f-1vw" style="top: 110px;">
             {{ $t("common.lyfDesc1") }}<br><br>
             {{ $t("common.lyfDesc2") }}<br><br>
             {{ $t("common.lyfDesc3") }}
@@ -254,7 +254,7 @@
               <div class="f-1_5vw" style="position: absolute; left: 62vw; top: 100px">
                 {{ $t("common.amfBondTitle") }}
               </div>
-              <div class="f-1_1vw main-fourth-text gradient-text"
+              <div class="f-1vw main-fourth-text gradient-text"
                 style="position: absolute; left: 50vw; top: 160px; width: 38vw;">
                 {{ $t("common.amfBondFund1") }}<br /><br />
                 {{ $t("common.amfBondFund2") }}<br /><br />
@@ -268,7 +268,7 @@
               <div class="f-1_5vw" style="position: absolute; left: 25vw; top: 500px">
                 {{ $t("common.amfHedgeTitle") }}
               </div>
-              <div class="f-1_1vw main-fourth-text gradient-text"
+              <div class="f-1vw main-fourth-text gradient-text"
                 style="position: absolute; left: 13vw; top: 560px; width: 38vw">
                 {{ $t("common.amfHedgeFund1") }}<br /><br />
                 {{ $t("common.amfHedgeFund2") }}<br /><br />
@@ -289,7 +289,7 @@
               <div class="f-1_5vw" style="position: absolute; left: 62vw; top: 900px">
                 {{ $t("common.amfIndexTitle") }}
               </div>
-              <div class="f-1_1vw main-fourth-text gradient-text"
+              <div class="f-1vw main-fourth-text gradient-text"
                 style="position: absolute; left: 50vw; top: 960px; width: 38vw">
                 {{ $t("common.amfIndexFund1") }}<br /><br />
                 {{ $t("common.amfIndexFund2") }}<br /><br />
@@ -303,49 +303,36 @@
 
         <!--Artificial Intelligence-->
         <div class="main-fifth-content">
-          <div class="f-2vw f-weighter ta-c">{{ $t("common.aiHead") }}</div>
+          <div class="f-2vw f-weighter ta-c">
+            {{ $t("common.aiHead") }}
+          </div>
 
-          <el-row :gutter="20" type="flex" justify="center" style="top: 130px; width: 100%; left: 2vw">
-            <el-col :span="4">
-              <div class="main-ai-card">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="main-ai-card-inner f-1vw f-weighter ta-c" style="color: #d21e1e;">
-                  1<br><br>{{ $t("common.aiDesc1") }}
-                </div>
-              </div>
-            </el-col>
-
-            <el-col :span="4">
-              <div class="main-ai-card">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="main-ai-card-inner  f-1vw f-weighter ta-c" style="color: #d21e1e;">
-                  2<br><br>{{ $t("common.aiDesc2") }}
-                </div>
-              </div>
-            </el-col>
-
-            <el-col :span="4">
-              <div class="main-ai-card">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="main-ai-card-inner f-1vw f-weighter ta-c" style="color: #d21e1e;">
-                  3<br><br>{{ $t("common.aiDesc3") }}
-                </div>
-              </div>
-            </el-col>
-
-            <el-col :span="4">
-              <div class="main-ai-card">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="main-ai-card-inner f-1vw f-weighter ta-c" style="color: #d21e1e;">
-                  4<br><br>{{ $t("common.aiDesc4") }}
-                </div>
-              </div>
-            </el-col>
-          </el-row>
+          <div class="main-ai-card" style="left:13vw;">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="main-ai-card-inner f-0_9vw f-weighter ta-c" style="color: #d21e1e;">
+              <br>{{ $t("common.aiTitle1") }}<br><br>
+              {{ $t("common.aiDesc1") }}
+            </div>
+          </div>
+        
+          <div class="main-ai-card" style="left:40vw">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="main-ai-card-inner  f-0_9vw f-weighter ta-c" style="color: #d21e1e;">
+              <br>{{ $t("common.aiTitle2") }}<br><br>
+              {{ $t("common.aiDesc2") }}
+            </div>
+          </div>
+    
+          <div class="main-ai-card" style="left:67vw">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="main-ai-card-inner f-0_9vw f-weighter ta-c" style="color: #d21e1e;">
+              <br>{{ $t("common.aiTitle3") }}<br><br>
+              {{ $t("common.aiDesc3") }}
+            </div>
+          </div>
         </div>
         <el-divider></el-divider>
 
@@ -779,7 +766,7 @@ export default {
 .main-third-content {
   width: 100%;
   position: relative;
-  height: 470px;
+  height: 500px;
   top: -50px;
 
   .main-third-text {
@@ -989,11 +976,12 @@ export default {
 
 // card ai --start 
 .main-ai-card {
-  width: 13vw;
-  height: 250px;
+  width: 20vw;
+  height: 330px;
   transition: all 0.2s;
-  position: relative;
+  position: absolute;
   cursor: pointer;
+  top: 160px;
 }
 
 .main-ai-card-inner {
@@ -1350,7 +1338,7 @@ export default {
   border: 2px rgba(255, 255, 255, 0.4) solid;
   border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
   border-right: 2px rgba(40, 40, 40, 0.35) solid;
-  top: 390px;
+  top: 410px;
 }
 
 .card-strategy:hover {

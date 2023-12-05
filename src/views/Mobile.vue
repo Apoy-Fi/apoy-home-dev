@@ -313,7 +313,8 @@
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="main-ai-card-inner f-16 f-weighter ta-c" style="color: #d21e1e;">
-              1<br><br>{{ $t("common.aiDesc1") }}
+              <br>{{ $t("common.aiTitle1") }}<br><br>
+              {{ $t("common.aiDesc1") }}
             </div>
           </div>
 
@@ -321,7 +322,8 @@
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="main-ai-card-inner  f-16 f-weighter ta-c" style="color: #d21e1e;">
-              2<br><br>{{ $t("common.aiDesc2") }}
+              <br>{{ $t("common.aiTitle2") }}<br><br>
+              {{ $t("common.aiDesc2") }}
             </div>
           </div>
 
@@ -329,16 +331,11 @@
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="main-ai-card-inner f-16 f-weighter ta-c" style="color: #d21e1e;">
-              3<br><br>{{ $t("common.aiDesc3") }}
+              <br>{{ $t("common.aiTitle3") }}<br><br>
+              {{ $t("common.aiDesc3") }}
             </div>
           </div>
-          <div class="main-ai-card" style="left: 8vw; top: 130px">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="main-ai-card-inner f-16 f-weighter ta-c" style="color: #d21e1e;">
-              4<br><br>{{ $t("common.aiDesc4") }}
-            </div>
-          </div>
+          
         </div>
         <el-divider></el-divider>
 
@@ -765,7 +762,7 @@ export default {
 .main-fifth-content {
   width: 100%;
   position: relative;
-  height: 770px;
+  height: 900px;
   top: 20px;
 
 }
@@ -933,7 +930,7 @@ export default {
 // card ai --start 
 .main-ai-card {
   width: 84vw;
-  height: 140px;
+  height: 240px;
   transition: all 0.2s;
   position: relative;
   cursor: pointer;
