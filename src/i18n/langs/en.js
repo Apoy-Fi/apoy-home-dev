@@ -67,7 +67,7 @@ const en = {
     aiHead: "Artificial Intelligence",
     aiTitle1: "Problem",
     aiDesc1: "When staking liquidity, how to balance between higher capital utilization efficiency and lower free losses? When funds are rebalancing, how to set the best exposure adjustment ratio to achieve the best effect between value loss and rebalancing frequency?",
-    aiTitle2: "Feature engineering",
+    aiTitle2: "Feature Engineering",
     aiDesc2: "Apoy samples the data on chain and uses clustering algorithms to do feature engineering, including feature extraction and feature combination. Generating a high dimensional feature space can provide a good fit to online problems in model training.",
     aiTitle3: "Algorithm",
     aiDesc3: "Apoy uses SVM, DNN and other machine learning artificial intelligence algorithms to solve these problems, including model training and online prediction, to help users obtain the best benefits.",

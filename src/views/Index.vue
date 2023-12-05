@@ -310,7 +310,7 @@
           <div class="main-ai-card" style="left:13vw;">
             <div class="circle"></div>
             <div class="circle"></div>
-            <div class="main-ai-card-inner f-0_9vw f-weighter ta-c" style="color: #d21e1e;">
+            <div class="main-ai-card-inner f-0_9vw f-weighter ta-c" style="color: #d21e1e; padding-left: 0.3vw; padding-right: 0.3vw;">
               <br>{{ $t("common.aiTitle1") }}<br><br>
               {{ $t("common.aiDesc1") }}
             </div>
@@ -319,7 +319,7 @@
           <div class="main-ai-card" style="left:40vw">
             <div class="circle"></div>
             <div class="circle"></div>
-            <div class="main-ai-card-inner  f-0_9vw f-weighter ta-c" style="color: #d21e1e;">
+            <div class="main-ai-card-inner  f-0_9vw f-weighter ta-c" style="color: #d21e1e; padding-left: 0.3vw; padding-right: 0.3vw;">
               <br>{{ $t("common.aiTitle2") }}<br><br>
               {{ $t("common.aiDesc2") }}
             </div>
@@ -328,7 +328,7 @@
           <div class="main-ai-card" style="left:67vw">
             <div class="circle"></div>
             <div class="circle"></div>
-            <div class="main-ai-card-inner f-0_9vw f-weighter ta-c" style="color: #d21e1e;">
+            <div class="main-ai-card-inner f-0_9vw f-weighter ta-c" style="color: #d21e1e; padding-left: 0.3vw; padding-right: 0.3vw;">
               <br>{{ $t("common.aiTitle3") }}<br><br>
               {{ $t("common.aiDesc3") }}
             </div>
@@ -977,7 +977,7 @@ export default {
 // card ai --start 
 .main-ai-card {
   width: 20vw;
-  height: 330px;
+  height: 290px;
   transition: all 0.2s;
   position: absolute;
   cursor: pointer;

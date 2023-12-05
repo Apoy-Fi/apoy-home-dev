@@ -143,15 +143,14 @@ var myMixin = {
       return {
         dex: 'https://traderjoexyz.com/trade?inputCurrency=AVAX&outputCurrency=0x2a1d12B6a84999aeAc82579F730e8Df9875092F0#/',
         home: process.env.VUE_APP_MODE === 'prod' ? 'https://apoy.fi/' : 'http://xx:8080/',
-        dapp: process.env.VUE_APP_MODE === 'prod' ? 'https://Coming.soon' : 'https://Coming.Soon',
+        dapp: process.env.VUE_APP_MODE === 'prod' ? 'https://doc-en.apoy.fi/' : 'https://doc-en.apoy.fi/',
         secure: '',
         github: 'https://github.com/Apoy-Fi',
         discord: 'https://discord.gg/nmBZZ3rB',
         telegram: 'https://t.me/apoyfi',
         twitter: 'https://twitter.com/ApoyFinance',
-        whitePaper: this.lang === 'cn' ? '' : '',
-        docs: this.lang === 'cn' ? '' :
-          '',
+        whitePaper: 'https://doc-en.apoy.fi/',
+        docs: 'https://doc-en.apoy.fi/',
         video: 'xx'
       }
     },
