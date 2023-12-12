@@ -146,7 +146,7 @@ var myMixin = {
         dapp: process.env.VUE_APP_MODE === 'prod' ? 'https://doc-en.apoy.fi/' : 'https://doc-en.apoy.fi/',
         secure: '',
         github: 'https://github.com/Apoy-Fi',
-        discord: 'https://discord.gg/nmBZZ3rB',
+        discord: 'https://discord.gg/b5FNSKGM8J',
         telegram: 'https://t.me/apoyfi',
         twitter: 'https://twitter.com/ApoyFinance',
         whitePaper: 'https://doc-en.apoy.fi/',
