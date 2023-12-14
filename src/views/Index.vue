@@ -85,8 +85,15 @@
           <el-carousel :interval="2000" type="card" height="18vw" arrow="always"
             style="width: 80vw; left:10vw; top: 120px;" v-show="show_home" class="animate__animated animate__fadeInDown">
             <el-carousel-item v-for="item in carousel_images" :key="item.url">
-              <!-- <h3 class="medium">{{ item }}</h3> -->
-              <img :src="item.url" class="bannerimg" />
+              <div>
+                <img :src="item.url"  class="bannerimg" />
+                <div class="ta-c f-1_2vw f-weighter" style="position:absolute; z-index:2; left: 50%; top: 25%; transform: translate(-50%, -30%); color: #879518;">
+                  {{item.title}}
+                </div>
+                <div class="ta-c f-1vw" style="position:absolute; z-index:2; left: 15%; top: 50%; transform: translate(-10%, -30%); color: #879518;">
+                  {{ $t(item.text) }}
+                </div>
+              </div>
             </el-carousel-item>
           </el-carousel>
 
@@ -559,12 +566,26 @@ export default {
       transition_list: ["home", "tvl", "product", "partner", "community"], // animation flags
       // Carousel
       carousel_images: [
-        {url: require("../assets/home/home2.jpg")},
-        {url: require("../assets/home/home2.jpg")},
-        {url: require("../assets/home/home2.jpg")},
-        {url: require("../assets/home/home2.jpg")},
-        {url: require("../assets/home/home2.jpg")},
-        {url: require("../assets/home/home2.jpg")}
+        {
+          url: require("../assets/home/home2.jpg"),
+          text: "common.carouselCard1",
+          title: "Chains"
+        },
+        {
+          url: require("../assets/home/home2.jpg"),
+          text: "common.carouselCard2",
+          title: "Earns"
+        },
+        {
+          url: require("../assets/home/home2.jpg"),
+          text: "common.carouselCard3",
+          title: "Recruitment"
+        },
+        {
+          url: require("../assets/home/home2.jpg"),
+          text: "common.carouselCard4",
+          title: "Cooperation"
+        },
       ],     
     };
   },

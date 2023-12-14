@@ -99,8 +99,13 @@
           <el-carousel :interval="2000" height="36vw" arrow="always" style="width: 90vw; left:5vw; top: 100px;"
             v-show="show_home" class="animate__animated animate__fadeInDown">
             <el-carousel-item v-for="item in carousel_images" :key="item.url">
-              <!-- <h3 class="medium">{{ item }}</h3> -->
               <img :src="item.url" class="bannerimg" />
+              <div class="ta-c f-17 f-weighter" style="position:absolute; z-index:2; left: 50%; top: 15%; transform: translate(-50%, -30%); color: #879518;">
+                {{item.title}}
+              </div>
+              <div class="ta-c f-15" style="position:absolute; z-index:2; left: 15%; top: 45%; transform: translate(-10%, -30%); color: #879518;">
+                {{ $t(item.text) }}
+              </div>
             </el-carousel-item>
           </el-carousel>
 
@@ -117,9 +122,9 @@
 
           <!-- 3 First cards -->
           <div v-show="show_home">
-            <div class="main-first-card f-18 glass-container animate__animated animate__fadeInRight"
+            <div class="main-first-card f-17 glass-container animate__animated animate__fadeInRight"
               style="left: 5vw; top: 270px">
-              <div class="ta-c f-18 f-weighter neon">AMM + CLMM<br><br></div>
+              <div class="ta-c f-17 f-weighter neon">AMM + CLMM<br><br></div>
               <span></span>
 
               <div class="f-16 f-weighter" style="text-indent:2em">
@@ -127,18 +132,18 @@
               </div>
             </div>
 
-            <div class="main-first-card f-18 glass-container animate__animated animate__fadeInUp"
+            <div class="main-first-card f-17 glass-container animate__animated animate__fadeInUp"
               style="left: 5vw; top: 320px">
-              <div class="ta-c f-18 f-weighter neon">{{ $t("common.homeCardTitleFund") }}<br><br></div>
+              <div class="ta-c f-17 f-weighter neon">{{ $t("common.homeCardTitleFund") }}<br><br></div>
               <span></span>
               <div class="f-16 f-weighter" style="text-indent:2em">
                 {{ $t("common.homeFirst2") }}
               </div>
             </div>
 
-            <div class="main-first-card f-18 glass-container animate__animated animate__fadeInLeft"
+            <div class="main-first-card f-17 glass-container animate__animated animate__fadeInLeft"
               style="left: 5vw; top: 370px">
-              <div class="ta-c f-18 f-weighter neon">{{ $t("common.homeCardTitleAi") }}<br><br></div>
+              <div class="ta-c f-17 f-weighter neon">{{ $t("common.homeCardTitleAi") }}<br><br></div>
               <span></span>
               <div class="f-16 f-weighter" style="text-indent:2em">
                 {{ $t("common.homeFirst3") }}
@@ -536,13 +541,27 @@ export default {
       ], // animation flags
       // Carousel
       carousel_images: [
-        { url: require("../assets/home/home2.jpg") },
-        { url: require("../assets/home/home2.jpg") },
-        { url: require("../assets/home/home2.jpg") },
-        { url: require("../assets/home/home2.jpg") },
-        { url: require("../assets/home/home2.jpg") },
-        { url: require("../assets/home/home2.jpg") }
-      ],
+        {
+          url: require("../assets/home/home2.jpg"),
+          text: "common.carouselCard1",
+          title: "Chains"
+        },
+        {
+          url: require("../assets/home/home2.jpg"),
+          text: "common.carouselCard2",
+          title: "Earns"
+        },
+        {
+          url: require("../assets/home/home2.jpg"),
+          text: "common.carouselCard3",
+          title: "Recruitment"
+        },
+        {
+          url: require("../assets/home/home2.jpg"),
+          text: "common.carouselCard4",
+          title: "Cooperation"
+        },
+      ],     
     };
   },
   computed: {
