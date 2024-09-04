@@ -33,17 +33,17 @@ module.exports = {
     }
   },
   devServer: {
-    disableHostCheck: true,
-    open: true,
+    // disableHostCheck: true,
+    // open: true,
     hot: true,
     proxy: {
-      // '/api': {
-      //   target: 'https://apoy.fi',
-      //   changeOrigin: true,
-      //   ws: true,
+      // '/api/EthMainnet': {
+      //    target: 'https://apoy.fi',
+      //    changeOrigin: true,
+      //    ws: true,
       // },
       '/api/43113': {
-        target: 'http://<dev.server.ip>', // To replace
+        target: 'http://8.8.8.8', // To replace ip
         changeOrigin: true,
         ws: true,
       },
